@@ -1,0 +1,39 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* this will not change even if the browser font change */
+/* html{
+    font-size: 16px;
+} */
+
+header
+{
+    width: 50%;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    border: 2px dashed red ;
+    width: 100%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main{
+    /* font-size: 2rem; */
+    width: 50vw;
+    /* background-color: skyblue; */
+}
+
+p{
+    /* font-size: 64px; */
+    font-size: 1.5rem;
+    width: 40ch;
+}

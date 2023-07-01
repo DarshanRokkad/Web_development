@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Part -1 */
+/* main{
+    background-color: aqua;
+    width: 50%;
+} */
+
+/* p {
+  background-color: gray;
+  margin: 100px 50px;
+} */
+
+/* .opposite {
+  display: inline-block;
+  background-color: #000;
+  color: whitesmoke;
+  margin-top: 35px ;
+  height: 200px;
+  padding: 2rem;
+} */
+
+/* making as button */
+/* .opposite{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 2rem;
+} */
+
+/* Part - 2 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+li {
+  /* display: none; */
+  display: inline;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+  text-decoration: underline;
+}
+

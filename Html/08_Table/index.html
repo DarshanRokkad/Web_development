@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Darshan">
+    <meta name="description" content="This page contains all the things i am learning how ot create as i learn html.">
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <title>
+        Text html page
+    </title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Hello World</h1>
+        <nav aria-label="primary navigation">
+            <ol>
+                <!-- This is a realtive reference -->
+                <li><a href="#html">Learn html</a></li>
+                <li><a href="#vacation">Vacation</a></li>
+                <li><a href="#avoid">Places to avoid</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <article id="html">
+            <h2>i am ready to learn html</h2>
+            <p>this is my first page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo.png" alt="html5logo" title="I am learning html" width="300" height="300">
+                <figure>
+                    <figcaption>
+                        The below code is the html code.
+                        <p>
+                            <code>&lt;h1&gt; Hello world &lt;/h1&gt;</code>
+                        </p>
+                    </figcaption>
+                </figure>
+            </section>
+            <section>
+                <h3>My daily schedule</h3>
+                <p>this is my first web page.</p>
+                <ol>
+                    <li>... I learn more about html</li>
+                    <li>... I plan out my schedules </li>
+                    <li>... I use resource form <abbr title="Mozilla developer network"><a
+                                href="https://developer.mozilla.org">MDN</a></abbr></li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>guess how <mark>many hours</mark> i code a day</summary>
+                        <p>I start coding at <time datetime="08:00"> 8 am</time> and I code <time datetime="PT3H"> 5
+                                hours</time> a day.</p>
+                    </details>
+                </aside>
+                <br>
+                <!-- tables -->
+                <table>
+                    <caption>My daily schedules</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">&nbsp;</th>
+                            <th id="time" scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="morning" scope="row">Morning</th>
+                            <td headers="time morning">
+                                <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                            </td>
+                            <td>Write code</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                            </td>
+                            <td>Eat lunch</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td>
+                                <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                            </td>
+                            <td>Study for other course</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td rowspan="2">All other time</td>
+                            <td>Use mobile</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what i do in every day of the week</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <!-- end -->
+            </section>
+        </article>
+        <hr> 
+        <section id="vacation">
+            <h2>i am also planning a vacation.</h2>
+            <ul>
+                <li>
+                    <p>i have been hard and <em> really need .</em></p>
+                </li>
+                <li>
+                    <p>i live in <abbr title="kanas">ks</abbr> so i want to visit beach .</p>
+                    <figure>
+                        <img src="img/caribbean.jpg" alt="caribbean beach"
+                            title="i am have to visit the caribbean sea beach." width="400" height="225" loading="lazy">
+                        <figcaption>
+                            This is a caribbean sea
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <p>i have heard good things about going here .</p>
+                    <address>
+                        Door no.12 k block<br>
+                        chitradurga - 577501
+                    </address>
+                    <figure>
+                        <img src="img/vacation.jpg" alt="caribbean resort" title="a chitradurga photo" width="400"
+                            height="267" loading="lazy">
+                        <figcaption>
+                            this is the photo of the chitradurga
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <hr>
+
+        <section id="avoid">
+            <h3>Place i want to avoid </h3>
+            <dl>
+                <dt>North pole</dt>
+                <dd>I hear this is <strong>cold!</strong></dd>
+
+                <dt>South pole</dt>
+                <dd>This is also <strong>cold!</strong></dd>
+
+                <dt>Mountains</dt>
+                <dd>It's windy here.</dd>
+            </dl>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&lt;&lt;&lt; &copy;<a href="about.html">Darshan</a>&gt;&gt;&gt;</p>
+        <hr>
+        <a href="#">Back to top</a>
+    </footer>
+</body>
+
+</html>

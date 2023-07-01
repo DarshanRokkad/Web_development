@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Belanosima', sans-serif;
+}
+
+a{
+    color: hsl(207, 44%, 49%);
+    text-decoration: none;
+    /* cursor: not-allowed; */
+    cursor: pointer;
+}
+/* a:visited{
+    color: purple;
+} */
+a:hover , a:focus{
+    /* color: hsl(189, 44%, 49%); */
+    /* opacity: 0.5; */
+    color: hsl(207, 44%,50%,0.6);
+    background-color: yellow;
+}
+a:active{
+    color: blue;
+}

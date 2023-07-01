@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-size: 1.5rem;
+  height: 200vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-size: 2rem;
+  background-color: bisque;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+main{
+    height: 200vh;
+    background-color: yellow;
+    background-image: linear-gradient(pink,violet);
+}
+
+section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+section h2{
+    padding: 20px;
+}
