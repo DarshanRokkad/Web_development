@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- example 1 - actual problem (see only code present below) -->
+    <section onclick="alert('I am section')">
+        <p onclick="alert('I am paragraph')"> I am a paragraph :
+            <button onclick="alert('I am button')">bubble up events</button>
+        </p>
+    </section>
+
+    <!-- example 2 - how to avoid event bubbling (or) propagation ?.. -->
+    <div class="container">
+        I am a container
+        <button class = 'btn'>
+            button click
+        </button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
