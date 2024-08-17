@@ -1,3 +1,4 @@
+// Elements
 const p1Score = document.querySelector("#p1Score");
 const p2Score = document.querySelector("#p2Score");
 const winningScoreSelect = document.querySelector("#winningScoreSelect")
@@ -5,9 +6,13 @@ const p1btn = document.querySelector("#p1Button");
 const p2btn = document.querySelector("#p2Button");
 const resetbtn = document.querySelector("#reButton");
 
+
+// Variables
 let winningScore = parseInt(winningScoreSelect.value);
 let isGameOver = false;
 
+
+// Players
 const p1 = {
     score: p1Score,
     button: p1btn
@@ -18,8 +23,8 @@ const p2 = {
     button: p2btn
 }
 
-// Functions
 
+// Functions
 function helper(player, opponent) {
     if (!isGameOver) {
         let currentScore = parseInt(player.score.innerText);
@@ -47,8 +52,8 @@ function resetScore() {
     p2btn.disabled = false;
 }
 
-// Event Listeners
 
+// Event Listeners
 winningScoreSelect.addEventListener(
     "change", () => {
         winningScore = parseInt(winningScoreSelect.value);
