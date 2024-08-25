@@ -1,0 +1,5 @@
+Commands:
+
+1. "npm init"
+2. "npm install colors" or "npm i colors"
+3. "node file.js"

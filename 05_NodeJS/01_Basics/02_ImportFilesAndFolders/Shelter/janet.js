@@ -1,0 +1,1 @@
+module.exports.cube = x => x * x * x;
