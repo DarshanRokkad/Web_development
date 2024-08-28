@@ -1,0 +1,17 @@
+{
+    "scorer" : {
+        "name" : "scorer",
+        "description" : "It is the national game of some country",
+        "subscribers" : 54628,
+        "posts":[
+            {
+                "title": "Ranoald",
+                "author": "I show speed"
+            },
+            {
+                "title": "messy",
+                "author": "shuuu"
+            }
+        ]
+    }
+}

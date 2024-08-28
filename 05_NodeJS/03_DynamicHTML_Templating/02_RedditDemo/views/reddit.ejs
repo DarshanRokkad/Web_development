@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+</head>
+<body>
+    <h1>Subreddit</h1>
+    <h1>Browsing <%= name %></h1>
+
+    <h2><%= description %></h2>
+    <p>Total number of subscribers <%= subscribers %></p>
+    <hr>
+    
+    <% for(let post of posts) { %>
+        <article>
+            <h3>Title : <%= post.title %></h3>
+            <h3>Author : <%= post.author %></h3>
+        </article>
+        <br>
+    <% } %>
+</body>
+</html>

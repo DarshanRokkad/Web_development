@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <h1>The random number generated is <%= randNum %></h1>
+    <!-- in above line randNum will be passed from the index.js file -->
+
+    <!-- Conditionals -->
+    <% if(randNum%2==0) { %>
+        <h2><%= randNum %> is a Even Number</h2>
+    <% } else { %>
+        <h2><%= randNum %> is a Odd Number</h2>
+    <% }  %>
+    
+    <!-- Loops -->
+    <h2>All Cats</h2>
+    <ul>
+        <% for(let cat of Allcats) { %>
+            <li><%= cat %></li>
+        <% } %>
+    </ul>
+
+    </body>
+</html>
